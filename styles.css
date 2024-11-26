@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.logo
+{
+    block-size: auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin: 0px
+}
+.Limited-time
+{
+    font-size:medium;
+    block-size: auto;
+    text-align: center;
+    color: white;
+    background-color: red;
+    height: auto;
+    margin: 0px
+}
+nav
+{
+    float: none;
+    background-color: gray;
+    height:50px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav-links
+{   
+    font-size:x-large;
+    list-style: none;
+}
+.nav-links li 
+{
+    display: inline;
+    margin: 0 10px;
+}
+.nav-links a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+.Featuring
+{
+    font-size: xx-large;
+    display:flex;
+    justify-content: center;
+}
