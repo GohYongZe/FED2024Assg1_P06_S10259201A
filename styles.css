@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: black;
 }
 .logo
 {
@@ -23,10 +24,10 @@ body{
 nav
 {
     float: none;
-    background-color: gray;
+    background-color: rgb(58, 58, 58);
     height:50px;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
 }
 .nav-links
@@ -46,7 +47,73 @@ nav
 }
 .Featuring
 {
+    background-color: rgb(179, 11, 11);
     font-size: xx-large;
     display:flex;
-    justify-content: center;
+    justify-content: center ;   
 }
+.carousel {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(300px * 2); /* Width of all images combined */
+  }
+  
+  .featuring-design {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .featuring-photos {
+    width: 800px;
+    height: auto;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  .carousel-para
+  {
+    margin:0px;
+    font-size: x-large;
+    color: white;
+    background-color: black;
+  }
+  .cta-button {
+    display: flex;
+    justify-content: center;
+    background:green;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
