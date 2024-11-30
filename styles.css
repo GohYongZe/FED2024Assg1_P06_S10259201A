@@ -277,14 +277,56 @@ nav
     border-radius: 5px;
     margin-top: 10px;
 }
+.about-background
+{
+    position: relative;
+    height: 100%;
+    width: 100%; /* Adjust the width to centralize and maintain layout */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('Images/about\ us\ background.jpg!w700wp');;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space elements at top and bottom */
+    align-items: center;
+    border-radius: 10px; /* Optional: Rounded corners for better aesthetics */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
 
-
-
-
-
-
-
-
+.about-us-container
+{
+    width: 250px;
+    height: 350px;
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-us-para
+{
+    display: flex;
+    justify-content: center;
+    color:white;
+    width: 70%;
+    font-size: large;
+    text-align: center;
+}
+.location-container 
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+iframe {
+    width: 300px;
+    height: 300px;
+    border: 0;
+    border-radius: 10px; /* Optional for a rounded look */
+  }
+.location-details
+{
+    color: white;
+    font-size: large;
+}
   footer {
     background: #333;
     color: #fff;
