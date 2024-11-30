@@ -19,3 +19,4 @@ prevButton.addEventListener('click', () => {
   currentIndex = (currentIndex - 1 + images.length) % images.length; // Loop back to the end
   updateCarousel();
 });
+

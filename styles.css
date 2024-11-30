@@ -208,9 +208,87 @@ nav
   .cta-button-visit-service:hover {
     background-color: rgb(0, 95, 0);
   }
+.services-headings
+  {
+    color:white;
+  }
+.bundles
+{
+    width: 800px;
+    margin:auto;
+    color:white;
+    font-size: xx-large;
+    display:flex;
+    justify-content: center ;
+}
+.bundle-container 
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Bundle-boxes 
+{
+    width: 250px;
+    height: 350px;
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bundle-headers
+{
+    font-size: 40px;    
+    display: flex;
+    justify-content: center;   
+    color:white 
+}
+.bundle-services
+{
+    font-size: 24px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.bundle-para-services
+{
+    font-size: large;
+    color:white
+}
+.book-now
+{
+    display: flex;
+    justify-content: center;
+    background:green;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.book-now:hover
+{
+    display: flex;
+    justify-content: center;
+    background:rgb(0, 95, 0);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
   footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
   }
+  
