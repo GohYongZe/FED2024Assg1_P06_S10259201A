@@ -4,6 +4,7 @@ RePC's Website
 This website is for ‘RePC’ a PC repair company. This company provides services such as cleaning, repairing damaged parts and optimising the customer’s PC. This website allows user to find out more about the company and its services while also showing the various services and bundles available to the customers. Overall, this website is designed to provide customers with the information which they may need such as pricing or the different services provided.
 
 
+
 Design process
 
 This website's design was inspired by AfterShock where some parts of the website may seem similar. This website's targeted audience are PC users who may have issues with their device. It is a webpage designed to provide potential customers with information of the services this company provide. It also provide information such as location, price ranges and discount bundles. This website is used as a way for customers find out about pricing and services before heading down to the physical shop. This can be a very effective way to provide customers with the necessary information which they may need as it is filled with information and can also allow customers to book a appointment slot straight from the website.
@@ -11,10 +12,98 @@ This website's design was inspired by AfterShock where some parts of the website
 The low-fidelity wireframe: https://www.figma.com/design/wICcKWHs3yt4gzMt07BmZv/Untitled?node-id=0-1&t=eJIIzKqSQVxwI05k-1
 
 
+
 Features
 
 Feature 1 - A univeral navigation bar at the top which allows user to navigate to the different pages easily
-Feature 2 - In the home page, under featuring, it is a carousel which can be clicked on to swap the carousel page which shows the different discount or new items being featured.
-Feature 3 - The "Find Out More" and "Visit Us Now" button in the carousel can be clicked on to direct users to specific pages which include informations which they may need.
-Feature 4 - 
 
+Feature 2 - In the home page, under featuring, it is a carousel which can be clicked on to swap the carousel page which shows the different discount or new items being featured.
+
+Feature 3 - The "Find Out More" and "Visit Us Now" button in the carousel can be clicked on to direct users to specific pages which include informations which they may need.
+
+Feature 4 - The "View Now" button under the view our services section will bring the user to the services page.
+
+Feature 5 - The Services page also has its own carousel which can be rotated, showing the diffeerent services they provide.
+
+Feature 6 - Under the Bundles section, All the "Book Now" button can be clicked on which will bring the user to the booking page.
+
+Feature 7 - In the About Us page, There is an interactive google map which the user can click on and use to see where the physical shop is located.
+
+Feature 8 - In The Book Us page, there is multiple input boxes for the customer to fill in their personal details and the reason for their appointment before submitting.
+
+
+
+Technologies Used
+
+1. Html
+Official website: https://html.com/
+
+Why it was used: It is used as the main programming language in this project.
+
+
+2. CSS
+Official website: https://www.w3schools.com/css/
+
+Why it was used: It is used to style the html code making it responsive.
+
+
+3. JavaScript
+Official website: https://www.javascript.com/
+
+Why it was used: It is used to add more functionality to the website, making it even more responsive
+
+
+4. Normalize.css
+Official website: https://necolas.github.io/normalize.css/
+Why it was used: Used to make the styling consistant to modern styling
+
+
+5. Google Map
+Official website: https://www.google.com/maps
+Why it was used: Used in one of the pages to show the location of the physical shop
+
+
+6. GitHub
+Official website: https://github.com/
+Why it was used: Used to publish the code to the public
+
+
+
+Testing
+
+1. Home Page:
+i. Go to home page, try clicking the left or right button on the carousel
+ii. The pages on the carousel should change
+iii. While in view with 576px or lower, the carousel has a bug where all the contents of the carousel will be shown. (Unable to fix)
+2. Services Page:
+i. Go to the services page, the carousel should be the same as the home page but with extra content.
+ii. While in view with 576px or lower, the carousel has a bug where all the contents of the carousel will be shown. (Unable to fix)
+iii. Scroll to the bundles section, after choosing a desired bundle, click the Book Now button which should bring you to the book Us page.
+iv. While in view with 576px or lower, the bundle view will become vertical instead of being horizontal.
+3. About Us Page:
+i. Go to the About Us page, click on the map, it should become interactive where you can look around the location.
+ii. While in view with 576px or lower, instead of having the map on the right side of the informations of the stores, it will be located vertically under it.
+4. Book Us Page:
+i. Go to the Book Us page, click on any of the fields. You should be able to enter your personal details to fill in the form to book an appointment.
+ii. While in view with 576px or lower, all the fields will be vertically next to each other, where scrolling will be needed to reach the bottom.
+iii. When pressing the submit button, it should submit the details entered in the different fields and also clear all the fields to reset it. (Unable to make it work.)
+
+
+Credits
+
+Content:
+Text paragraphs were generated by ChatGPT
+
+Images:
+All photos in the webiste where taken from these links:
+https://www.istockphoto.com/photos/pc-repair
+https://www.thebestsingapore.com/services/most-reliable-data-recovery-services-in-singapore/
+https://pikbest.com/backgrounds/computer-display-store-with-many-computers-and-displays_9504829.html
+https://www.nvidia.com/en-in/geforce/graphics-cards/40-series/rtx-4080-family/
+https://mobile-pc-medics.com/blog/10-computer-repair-tips-to-speed-up-your-slow-pc/
+https://computercentre.es/computer-repair/virus-removal/
+https://stock.adobe.com/search/images?k=computer+repair&asset_id=217862401
+https://www.shutterstock.com/image-photo/central-processing-unit-other-computer-parts-594646208
+
+Acknowledgement:
+I recieved inspiration for this project from AfterShock PC
