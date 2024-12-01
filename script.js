@@ -29,14 +29,6 @@ let btnSubmit = document.getElementById('submit-button');
         //get first-name value
         let FirstName = document.getElementById('first-name').value;
         msg += `First Name: ${FirstName}<br/>`;
-
-        if(FirstName.length < 1){
-            errorMsg = `Please enter your first name.`;
-          console.log(errorMsg);
-              document.getElementById('errorUsername').innerHTML = errorMsg;
-        }else{
-          document.getElementById('errorUsername').innerHTML = "";
-        }
         
         //get Last-name value
         let Lastname = document.getElementById('last-name').value;
