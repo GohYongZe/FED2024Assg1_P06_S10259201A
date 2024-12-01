@@ -327,6 +327,32 @@ iframe {
     color: white;
     font-size: large;
 }
+.form-style
+{
+    display:flex;
+    justify-content: center;
+    gap:145px;
+}
+.input-headings
+{
+    color: white;
+    margin:10px
+}
+.input-container    
+{
+    margin:10px
+}
+.message-container
+{
+    width:500px;
+    height:200px;
+    margin:10px;
+}
+.error
+{ 
+    color: red; font-size: 0.8em;
+}
+
   footer {
     background: #333;
     color: #fff;
