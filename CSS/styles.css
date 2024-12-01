@@ -140,22 +140,22 @@ nav
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 60vh; /* 60% of the viewport height */
+    height: 60vh;
     width: 100%;
   }
   
   .background-image {
     position: relative;
     height: 100%;
-    width: 100%; /* Adjust the width to centralize and maintain layout */
-    background: url('Images/background image.webp') no-repeat center center;
+    width: 100%; 
+    background: url('Images/background_image.webp') no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space elements at top and bottom */
+    justify-content: space-between; 
     align-items: center;
-    border-radius: 10px; /* Optional: Rounded corners for better aesthetics */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
   .background-image::after {
@@ -192,7 +192,7 @@ nav
     z-index: 2;
   }
   .cta-button-visit-service {
-    background-color: green; /* Change color as needed */
+    background-color: green;
     color: white;
     font-size: 1rem;
     padding: 10px 20px;
@@ -281,15 +281,15 @@ nav
 {
     position: relative;
     height: 100%;
-    width: 100%; /* Adjust the width to centralize and maintain layout */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('Images/about\ us\ background.jpg!w700wp');;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('Images/about_us_background.jpg!w700wp');;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space elements at top and bottom */
+    justify-content: space-between;
     align-items: center;
-    border-radius: 10px; /* Optional: Rounded corners for better aesthetics */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .about-us-container
@@ -320,7 +320,7 @@ iframe {
     width: 300px;
     height: 300px;
     border: 0;
-    border-radius: 10px; /* Optional for a rounded look */
+    border-radius: 10px;
   }
 .location-details
 {
@@ -348,15 +348,200 @@ iframe {
     height:200px;
     margin:10px;
 }
-.error
-{ 
-    color: red; font-size: 0.8em;
+.submit-form-style
+{
+    display:flex;
+    justify-content: center;
+    gap:145px;
 }
-
+.cta-button-submit {
+    background-color: green; /* Change color as needed */
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Adds spacing from the bottom */
+    z-index: 2; /* Ensures button is above the overlay */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds subtle shadow for the button */
+    text-decoration: none;
+  }
+  
+  .cta-button-submit:hover {
+    background-color: rgb(0, 95, 0);
+  }
   footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
   }
+  @media (max-width: 576px) {
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
   
+    body {
+      margin: 0;
+      background-color: black;
+    }
+  
+    .logo {
+      font-size: 1.5rem;
+      height: auto;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .Limited-time {
+      font-size: small;
+      padding: 5px;
+      text-align: center;
+      height: auto;
+    }
+  
+    nav {
+      height: auto;
+    }   
+  
+    .nav-links {
+      display: flex;
+      font-size: medium;
+      text-align: center;
+      justify-content: center;
+      gap:30px
+    }
+  
+    .nav-links li {
+      margin: 5px 0;
+    }
+  
+    .carousel {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+      }
+      
+      .carousel-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+      }
+      
+      .featuring-photos {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      .carousel-para {
+        font-size: large;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      .prev-button,
+      .next-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+      }
+  
+    .cta-button {
+      font-size: 0.9rem; 
+      padding: 8px 15px;
+      margin: 5px auto;
+    }
+  
+    .view-services-container {
+      height: 50vh; 
+    }
+  
+    .background-image {
+      width: 100%;
+      border-radius: 0; 
+    }
+  
+    .view-our-services {
+      font-size: 2rem;
+      padding: 5px;
+    }
+  
+    .view-our-services-para {
+      font-size: medium;
+      width: 90%;
+      text-align: center;
+    }
+  
+    .services-headings {
+      font-size: large;
+      text-align: center;
+    }
+    
+    .bundles {
+        width:100%
+    }
+    .bundle-container {
+      flex-direction: column; 
+      gap: 50px;
+    }
+  
+    .Bundle-boxes {
+      width: 80%; 
+      margin: auto;
+    }
+  
+    .location-container {
+      flex-direction: column; 
+      gap: 10px;
+    }
+  
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  
+    .location-details {
+      font-size: medium;
+      text-align: center;
+    }
+  
+    .form-style {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .input-container {
+      width: 90%;
+    }
+  
+    .message-container {
+      width: 90%;
+      height: 150px;
+    }
+
+    .cta-button-submit{
+        width:50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+      font-size: small;
+      padding: 10px;
+    }
+  }

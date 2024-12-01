@@ -11,12 +11,12 @@ function updateCarousel() {
 }
 
 nextButton.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % images.length; // Loop back to the start
+  currentIndex = (currentIndex + 1) % images.length;
   updateCarousel();
 });
 
 prevButton.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + images.length) % images.length; // Loop back to the end
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
   updateCarousel();
 });
 

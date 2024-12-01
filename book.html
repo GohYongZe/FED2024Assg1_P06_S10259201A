@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport">
   <title>Book Us - RePC</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/styles.css" type="text/css">
 </head>
 <body>
   <header>
@@ -43,20 +43,20 @@
         <div class="input-align">
             <br>
             <label class="input-headings" for="datetime">Date & Time:</label><br>
-            <input class="input-container" required type="datetime" placeholder="Date & Time" id="datetime" name="datetime">
+            <input class="input-container" required type="text" placeholder="Date(DD/MM/YY) & Time" id="datetime" name="datetime">
         </div>
     </div>
     <div class="form-style">
         <div class="input-align">
         <br>
-            <label class="input-headings" for="message-id">Please Enter Your Message Here:</label><br>
-            <input class="message-container" required type="text" placeholder="Enter Your Message" id="message-id" name="message-id">
+            <label class="input-headings" for="message-id">Please Enter Your Reason Here:</label><br>
+            <input class="message-container" required type="text" placeholder="Enter Your Reason" id="message-id" name="message-id">
         </div>
     </div>
     <br>
     <br>
-    <div class="form-style">
-        <input class="cta-button-visit-service" id="submit-button" type="submit"></input>
+    <div class="submit-form-style">
+        <input class="cta-button-submit" id="submit-button" type="submit">
     </div>
   </section>
 
