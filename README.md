@@ -72,21 +72,38 @@ Why it was used: Used to publish the code to the public
 Testing
 
 1. Home Page:
+
 i. Go to home page, try clicking the left or right button on the carousel
+
 ii. The pages on the carousel should change
-iii. While in view with 576px or lower, the carousel has a bug where all the contents of the carousel will be shown. (Unable to fix)
+
+iii. While in view with 576px or lower, the carousel has a bug where all the contents of the carousel will be 
+shown. (Unable to fix)
+
 2. Services Page:
+
 i. Go to the services page, the carousel should be the same as the home page but with extra content.
+
 ii. While in view with 576px or lower, the carousel has a bug where all the contents of the carousel will be shown. (Unable to fix)
+
 iii. Scroll to the bundles section, after choosing a desired bundle, click the Book Now button which should bring you to the book Us page.
+
 iv. While in view with 576px or lower, the bundle view will become vertical instead of being horizontal.
+
 3. About Us Page:
+
 i. Go to the About Us page, click on the map, it should become interactive where you can look around the location.
+
 ii. While in view with 576px or lower, instead of having the map on the right side of the informations of the stores, it will be located vertically under it.
+
 4. Book Us Page:
+
 i. Go to the Book Us page, click on any of the fields. You should be able to enter your personal details to fill in the form to book an appointment.
+
 ii. While in view with 576px or lower, all the fields will be vertically next to each other, where scrolling will be needed to reach the bottom.
+
 iii. When pressing the submit button, it should submit the details entered in the different fields and also clear all the fields to reset it. (Unable to make it work.)
+
 
 
 Credits
